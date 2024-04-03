@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="robots" content="noindex" />
+  <!-- meta情報 -->
+  <title>test</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <link rel="icon" href="" />
+  <!-- css -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+  <header>
+
+  </header>
+  <main>
+    <div class="page-works">
+      <div class="page-works__inner inner">
+        <!--------------------  イベント --------------------->
+        <div class="page-works__head">
+          <h3 class="page-works__title alternate-gothic">event&nbsp;creative<span>イベント制作</span></h3>
+          <p class="page-works__desc">周年イベント・セールスプロモーション展示会（国内・海外）・企業セミナー・シンポジウム</p>
+        </div>
+        
+        <ul class="page-works__list">
+          <!-- イベント1枚目 -->
+          <li class="page-works__item js-modal-open" data-modal="modal1">
+            <div class="page-works__image">
+              <img src="assets/images/common/event01.jpg" alt="周年ステージイベントの画像">
+            </div>
+            <p class="page-works__text">周年ステージイベント</p>
+          </li>
+          <!-- イベント2枚目 -->
+          <li class="page-works__item js-modal-open" data-modal="modal2">
+            <div class="page-works__image">
+              <img src="assets/images/common/event02.jpg" alt="海外展示">
+            </div>
+            <p class="page-works__text">海外展示</p>
+          </li>
+          <!-- イベント3枚目 -->
+          <li class="page-works__item js-modal-open" data-modal="modal3">
+            <div class="page-works__image">
+              <img src="assets/images/common/event03.jpg" alt="展示会PRイベントの画像">
+            </div>
+            <p class="page-works__text">展示会PRイベント</p>
+          </li>
+        </ul>
+
+        <!-------------- イベントのモーダル ----------------->
+        <!-- イベント1枚目 -->
+        <div class="modal" id="modal1">
+          <!-- 背景のオーバーレイ -->
+          <div class="modal-overlay js-modal-close"></div>
+          <!-- モーダルのコンテンツ -->
+          <div class="modal__content">
+            <!-- 閉じるボタン -->
+            <button class="modal__close-btn js-modal-close" aria-label="閉じる">×</button>
+            <div class="modal__slider modal-swiper swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide modal__slide">
+                  <img src="assets/images/common/event01.jpg" alt="周年ステージイベントの画像">
+                  <p class="modal__text">周年ステージイベント</p>
+                </div>
+                <div class="swiper-slide modal__slide">
+                  <img src="assets/images/common/event04.jpg" alt="展示会PRイベントの画像">
+                  <p class="modal__text">周年ステージイベント</p>
+                </div>
+              </div>
+            </div>
+              <!-- ナビボタン -->
+              <div class="swiper-button-prev"><img src="assets/images/common/event-prev.png" alt="前への矢印アイコン"></div>
+              <div class="swiper-button-next"><img src="assets/images/common/event-next.png" alt="次への矢印アイコン"></div>
+
+            <!-- サムネイル -->
+            <div class="modal__slider modal-swiper-thumbnail swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/images/common/event01.jpg" alt="周年ステージイベントの画像">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/common/event04.jpg" alt="展示会PRイベントの画像">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- イベント2枚目 -->
+        <div class="modal" id="modal2">
+          <!-- 背景のオーバーレイ -->
+          <div class="modal-overlay js-modal-close"></div>
+          <!-- モーダルのコンテンツ -->
+          <div class="modal__content">
+            <!-- 閉じるボタン -->
+            <button class="modal__close-btn js-modal-close" aria-label="閉じる">×</button>
+            <div class="modal__slider modal-swiper swiper">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide modal__slide">
+                  <img src="assets/images/common/event02.jpg" alt="周年ステージイベントの画像">
+                  <p class="modal__text">周年ステージイベント</p>
+                </div>
+                <div class="swiper-slide modal__slide">
+                  <img src="assets/images/common/event05.jpg" alt="展示会PRイベントの画像">
+                  <p class="modal__text">周年ステージイベント</p>
+                </div>
+              </div>
+            </div>
+              <!-- ナビボタン -->
+            <div class="swiper-button-prev"><img src="assets/images/common/event-prev.png" alt="前への矢印アイコン"></div>
+            <div class="swiper-button-next"><img src="assets/images/common/event-next.png" alt="次への矢印アイコン"></div>
+
+            <!-- サムネイル -->
+            <div class="modal__slider modal-swiper-thumbnail swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/images/common/event02.jpg" alt="周年ステージイベントの画像">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/common/event05.jpg" alt="展示会PRイベントの画像">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- イベント3枚目 -->
+        <div class="modal" id="modal3">
+          <!-- 背景のオーバーレイ -->
+          <div class="modal-overlay js-modal-close"></div>
+          <!-- モーダルのコンテンツ -->
+          <div class="modal__content">
+            <!-- 閉じるボタン -->
+            <button class="modal__close-btn js-modal-close" aria-label="閉じる">×</button>
+            <div class="modal__slider modal-swiper swiper">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide modal__slide">
+                  <img src="assets/images/common/event03.jpg" alt="周年ステージイベントの画像">
+                  <p class="modal__text">周年ステージイベント</p>
+                </div>
+                <div class="swiper-slide modal__slide">
+                  <img src="assets/images/common/event06.jpg" alt="展示会PRイベントの画像">
+                  <p class="modal__text">周年ステージイベント</p>
+                </div>
+                <div class="swiper-slide modal__slide">
+                  <img src="assets/images/common/event07.jpg" alt="展示会PRイベントの画像">
+                  <p class="modal__text">周年ステージイベント</p>
+                </div>
+                <div class="swiper-slide modal__slide">
+                  <img src="assets/images/common/event08.jpg" alt="展示会PRイベントの画像">
+                  <p class="modal__text">周年ステージイベント</p>
+                </div>
+              </div>
+            </div>
+              <!-- ナビボタン -->
+            <div class="swiper-button-prev"><img src="assets/images/common/event-prev.png" alt="前への矢印アイコン"></div>
+            <div class="swiper-button-next"><img src="assets/images/common/event-next.png" alt="次への矢印アイコン"></div>
+
+            <!-- サムネイル -->
+            <div class="modal__slider modal-swiper-thumbnail swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/images/common/event03.jpg" alt="周年ステージイベントの画像">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/common/event06.jpg" alt="展示会PRイベントの画像">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/common/event07.jpg" alt="展示会PRイベントの画像">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/common/event08.jpg" alt="展示会PRイベントの画像">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <!-- GSAP -->
+  <!-- swiper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
