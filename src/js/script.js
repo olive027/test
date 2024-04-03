@@ -25,7 +25,7 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
     // Swiperの設定
   // サムネイル
     var sliderThumbnail = new Swiper(".modal-swiper-thumbnail", {
-      // loop: true,
+      loop: false,
       slidesPerView: 'auto',
       spaceBetween: 10,
       centeredSlides: true,
@@ -49,5 +49,15 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
         swiper: sliderThumbnail,
       },
     });
+
+		// let thumb_button_next = document.querySelectorAll('.swiper-button-next')[0]
+		// thumb_button_next.addEventListener('click',function (){
+		// 	modalSwiper.slideNext();
+		// })
+	
+		// let thumb_button_prev = document.querySelectorAll('.swiper-button-prev')[0]
+		// thumb_button_prev.addEventListener('click',function (){
+		// 	modalSwiper.slidePrev();
+		// })
 
 });
